@@ -16,6 +16,13 @@ Our methodology involves using a dataset comprising 3,064 images of three distin
 ## Results
 We conduct a comparative analysis between the ViT model and a baseline ResNet-50 model. Our ViT model outperformed the baseline ResNet-50 model in terms of accuracy, achieving 97.23% accuracy without augmentations and 96.90% with augmentations.
 
+## Load pretrained model
+For loading pretrained model use 
+```python
+from transformers import ViTForImageClassification
+model = ViTForImageClassification.from_pretrained('path_to_model_dir')
+```
+
 ## How to Install and Run this Project
 More detailed instructions will be provided soon.
 
