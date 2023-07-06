@@ -1,5 +1,16 @@
-# BrainSight:Leveraging-Vision Transformers for Tumor Detection
-This project aims to classify brain tumors using a single slice of a T1-weighted contrast MRI scan. We explore the use of the Vision Transformer (ViT) architecture and compare the results against the ResNet-50 architecture and got to accuracy of 99.61% with efficientformer.
+<h1 align="center">
+  <br>
+BrainSight:Leveraging-Vision Transformers for Tumor Detection
+  <br>
+</h1>
+
+<p align="center">This project aims to classify brain tumors using a single slice of a T1-weighted contrast MRI scan. We explore the use of the Vision Transformer (ViT) architecture and compare the results against the ResNet-50 architecture and got to accuracy of 99.61% with efficientformer.</p>
+
+<h2 align = "center">
+<a target="_blank" href="https://colab.research.google.com/github/litvingil/BrainSight-Leveraging-Vision-Transformers-for-Tumor-Detection/blob/main/BrainSight.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+</h2>
 
 ![accuracy](images/output.png)
 
